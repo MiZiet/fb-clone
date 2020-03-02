@@ -1,0 +1,153 @@
+.navContainer {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #3b5998;
+  height: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.navContainer img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.navContainer a {
+  text-decoration: none;
+  color: white;
+}
+
+.navDiv1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 30px;
+  padding-right: 16px;
+}
+
+.navDiv1 i {
+  margin: auto 0px;
+  height: 30px;
+}
+
+.navDiv1 button {
+  background: #f5f6f7;
+  border: none;
+  border-radius: 0 2px 2px 0;
+  color: #4b4f56;
+  height: 26px;
+  padding: 0px 16px;
+}
+
+.navDiv1 button:hover {
+  cursor: pointer;
+  background: #ebedf0;
+}
+
+.navDiv1 input {
+  height: 24px;
+  border: none;
+  border-radius: 2px 0 0 2px;
+  padding-left: 8px;
+  width: 25vw;
+  max-width: 560px;
+}
+
+.navDiv2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.linkWrap {
+  margin: auto;
+  padding: 6px 10px;
+  border-left: 1px solid;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.linkWrap:hover {
+  cursor: pointer;
+  background-color: #29487d;
+}
+
+.linkWrap:last-child {
+  border-right: 1px solid;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.linkWrapPic {
+  margin: auto;
+  padding: 0px 10px;
+}
+
+.linkWrapPic span {
+  position: relative;
+  top: -7px;
+  padding-left: 3px;
+}
+
+.linkWrapPic:hover {
+  cursor: pointer;
+  background-color: #29487d;
+}
+
+.navDiv3 {
+  border-right: 1px solid;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navDiv1, .navDiv2, .navDiv3, .navDiv4 {
+  margin: auto 0px;
+}
+
+.navDiv3, .navDiv4 {
+  color: #1d2129;
+  font-size: 18px;
+}
+
+.navDiv3 i, .navDiv4 i {
+  padding: 0px 8px;
+}
+
+.navDiv3 i:hover, .navDiv4 i:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.navDiv2 a, .navDiv3 a, .navDiv4 a {
+  padding: 0px auto;
+}
+
+.fbIcon {
+  position: relative;
+  top: -3px;
+  font-size: 30px;
+  padding-right: 6px;
+}
+/*# sourceMappingURL=Navbar.css.map */
