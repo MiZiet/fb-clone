@@ -1,22 +1,27 @@
+html
+    font-size: 12px
+
 .navContainer
     font-family: Helvetica, Arial, sans-serif
-    font-size: 12px
+    font-size: 1rem
     font-weight: bold
     position: fixed
     top: 0
     left: 0
     width: 100%
-    background-color: #3b5998
-    height: 42px
+    background-color: #2851A3
+    height: 3.5rem
     display: flex
     flex-direction: row
     flex-wrap: nowrap
     justify-content: center
     color: white
+    border-bottom: 1px solid #29487d
+    z-index: 9999
 
     img
-        width: 24px
-        height: 24px
+        width: 2rem
+        height: 2rem
         border-radius: 50%
 
     a
@@ -26,41 +31,43 @@
 .navDiv1
     display: flex
     flex-direction: row
-    height: 30px
-    padding-right: 16px
+    height: 2.5rem
+    padding-right: 1.33rem
+
+    form
+        display: flex
+        flex-direction: row
 
     i
         margin: auto 0px
-        height: 30px
+        height: 2.5rem
     
     button
         background: #f5f6f7
         border: none
-        border-radius: 0 2px 2px 0
+        border-radius: 0 0.166rem 0.166rem 0
         color: #4b4f56
-        height: 26px
-        padding: 0px 16px
+        height: 2.1667rem
+        padding: 0px 2.1667rem
 
         &:hover
             cursor: pointer
             background: #ebedf0
 
     input
-        height: 24px
+        height: 2rem
         border: none
-        border-radius: 2px 0 0 2px
-        padding-left: 8px
-        width: 25vw
-        max-width: 560px
+        border-radius: 0.166rem 0 0 0.166rem
+        padding-left: 0.667rem
+        width: 31rem
   
-    
 .navDiv2
     display: flex
     flex-direction: row
 
 .linkWrap
     margin: auto
-    padding: 6px 10px
+    padding: 0.5rem 0.833rem
     border-left: 1px solid
     border-color: rgba(0, 0, 0, .1)
 
@@ -74,12 +81,12 @@
 
 .linkWrapPic
     margin: auto
-    padding: 0px 10px
+    padding: 0px 0.833rem
 
     span
         position: relative
-        top: -7px
-        padding-left: 3px
+        top: -0.583rem
+        padding-left: 0.25rem
 
     &:hover
         cursor: pointer
@@ -89,17 +96,15 @@
     border-right: 1px solid
     border-color: rgba(0, 0, 0, .1)
 
-
-
 .navDiv1, .navDiv2, .navDiv3, .navDiv4
     margin: auto 0px
 
 .navDiv3, .navDiv4
     color: #1d2129
-    font-size: 18px
+    font-size: 1.5rem
 
     i
-        padding: 0px 8px
+        padding: 0px 0.666rem
 
     i:hover
         cursor: pointer
@@ -111,6 +116,14 @@
 
 .fbIcon
     position: relative
-    top: -3px
-    font-size: 30px
-    padding-right: 6px
+    top: -0.25rem
+    font-size: 2.5rem
+    padding-right: 0.5rem
+
+@media (max-width: 1000px)
+    input
+        width: 16rem
+
+    .smDispNone
+        display: none
+  

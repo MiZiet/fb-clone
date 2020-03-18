@@ -1,0 +1,59 @@
+.languageContainer {
+  margin-top: 3.5rem;
+  margin-left: 1rem;
+  padding: 15px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #DDDFE2;
+  border-radius: 3px;
+  width: 250px;
+}
+
+.Links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Links a {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.Links a:hover {
+  text-decoration: underline;
+}
+
+.Links span {
+  margin: 0px 3px;
+}
+
+.activeLink {
+  color: black;
+  font-size: 1.2rem;
+}
+
+.activeLink:hover {
+  text-decoration: none;
+}
+
+.addButton {
+  padding: 5px 12px 5px 12px;
+  margin: auto;
+  background-color: #FBFBFC;
+  font-size: 1.5rem;
+  border: 1px solid #DDDFE2;
+  border-radius: 3px;
+}
+/*# sourceMappingURL=Language.css.map */

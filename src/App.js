@@ -7,10 +7,29 @@ import {
   faUserFriends,
   faBell,
   faQuestionCircle,
-  faCaretDown
+  faCaretDown,
+  faNewspaper,
+  faDesktop,
+  faStore,
+  faEllipsisH,
+  faImage,
+  faUserTag,
+  faGrin,
+  faPlus,
+  faUsers,
+  faFlag,
+  faCalendarAlt,
+  faCoins,
+  faTag,
+  faThumbsUp,
+  faComment,
+  faShare
 } from "@fortawesome/free-solid-svg-icons";
 
-import Navbar from "./components/fb-clone/navbar/Navbar";
+import Navbar from "./components/fb-clone/layout/Navbar";
+import ProfileMenu from "./components/fb-clone/layout/ProfileMenu";
+import ContentList from "./components/fb-clone/layout/ContentList";
+import RightMenu from "./components/fb-clone/layout/RightMenu";
 
 function App() {
   library.add(
@@ -19,11 +38,36 @@ function App() {
     faUserFriends,
     faBell,
     faQuestionCircle,
-    faCaretDown
+    faCaretDown,
+    faNewspaper,
+    faDesktop,
+    faStore,
+    faEllipsisH,
+    faImage,
+    faUserTag,
+    faGrin,
+    faPlus,
+    faUsers,
+    faFlag,
+    faCalendarAlt,
+    faCoins,
+    faTag,
+    faThumbsUp,
+    faComment,
+    faShare
   );
   return (
     <div className="App">
       <Navbar />
+      <div className="mainContent">
+        <span className="smDispNone">
+          <ProfileMenu />
+        </span>
+        <ContentList />
+        <span className="smDispNone">
+          <RightMenu />
+        </span>
+      </div>
     </div>
   );
 }

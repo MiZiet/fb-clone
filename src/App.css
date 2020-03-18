@@ -1,0 +1,22 @@
+html {
+  font-size: 12px;
+  background-color: #e9ebee;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.mainContent {
+  width: 500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 10px;
+  }
+  .smDispNone {
+    display: none;
+  }
+  .mainContent {
+    width: 100%;
+  }
+}

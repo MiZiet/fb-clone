@@ -1,0 +1,137 @@
+.post {
+  width: 500px;
+  margin-top: 1.5rem;
+  background-color: #fff;
+  border: 1px solid #DDDFE2;
+  border-radius: 5px;
+}
+
+.postHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.postHeader img {
+  margin: 15px 15px 5px 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.postHeader i {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.headerName {
+  padding-top: 8px;
+}
+
+.headerName h1 {
+  font-size: 1.3rem;
+  color: #385898;
+  cursor: pointer;
+}
+
+.headerName span {
+  color: grey;
+  cursor: pointer;
+}
+
+.headerName span:hover {
+  text-decoration: underline;
+}
+
+.postContent p {
+  font-size: 1.2rem;
+  padding: 0rem 1rem 0rem 1.5rem;
+  line-height: 1.38;
+}
+
+.postContent img {
+  width: 100%;
+}
+
+.postFooter {
+  position: relative;
+}
+
+.postActions {
+  padding: 0px 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+  font-size: 1.2rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.likesCounter {
+  padding: 10px 0px;
+  font-size: 1.1rem;
+  color: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.likesCounter span:first-child {
+  margin-right: 10px;
+}
+
+.likesCounter span:nth-child(2) {
+  margin-right: 12px;
+}
+
+.likesCounter span:hover {
+  cursor: pointer;
+}
+
+.likesCounter::after {
+  content: "";
+  position: absolute;
+  top: 32px;
+  left: 20px;
+  width: 460px;
+  height: 1px;
+  background-color: #DDDFE2;
+}
+
+.postActionIcon {
+  width: 30%;
+  margin-bottom: 5px;
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.postActionIcon i {
+  padding-top: 8px;
+  font-size: 1.5rem;
+}
+
+.postActionIcon span {
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.postActionIcon:hover {
+  cursor: pointer;
+  background-color: #EBEDF0;
+}
+/*# sourceMappingURL=Post.css.map */

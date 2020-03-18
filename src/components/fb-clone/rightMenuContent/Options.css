@@ -1,0 +1,26 @@
+.optionsContainer {
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+  margin-left: 1rem;
+  padding-left: 10px;
+  max-width: 250px;
+}
+
+.optionsContainer a {
+  font-size: 1.2rem;
+  color: grey;
+  text-decoration: none;
+}
+
+.optionsContainer a:hover {
+  text-decoration: underline;
+}
+
+.optionsContainer span {
+  margin: 0px 5px;
+}
+
+.brandName {
+  font-weight: normal;
+}
+/*# sourceMappingURL=Options.css.map */

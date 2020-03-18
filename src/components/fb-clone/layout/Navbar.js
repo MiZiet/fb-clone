@@ -25,14 +25,14 @@ const Navbar = () => {
             <img src={profilePic} alt="Profile Pic" /> <span>Michał</span>
           </a>
         </div>
-        <div className="linkWrap">
-          <a>Home</a>
+        <div className="linkWrap smDispNone">
+          <a href="#!">Home</a>
         </div>
-        <div className="linkWrap">
-          <a>Find Friends</a>
+        <div className="linkWrap smDispNone">
+          <a href="#!">Find Friends</a>
         </div>
-        <div className="linkWrap">
-          <a>Create</a>
+        <div className="linkWrap smDispNone">
+          <a href="#!">Create</a>
         </div>
       </div>
       <div className="navDiv3">
@@ -46,7 +46,7 @@ const Navbar = () => {
           <FontAwesomeIcon icon="bell" />
         </i>
       </div>
-      <div className="navDiv4">
+      <div className="navDiv4 smDispNone">
         <i>
           <FontAwesomeIcon icon="question-circle" />
         </i>

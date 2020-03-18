@@ -1,0 +1,94 @@
+.createPostContainer {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  width: 500px;
+  padding-top: 3.5rem;
+}
+
+.createPostContainer img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
+.title {
+  border-radius: 2px;
+  font-weight: bold;
+  color: #111;
+  background-color: #F5F6F7;
+  padding: 1rem 0px;
+  padding-left: 0.5rem;
+  border: 1px solid #DDDFE2;
+  border-top: 1px solid #fff;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.inputField {
+  position: relative;
+  padding: 1.2rem 0px;
+  background-color: #fff;
+  color: #909298;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #DDDFE2;
+  border-top: none;
+  border-bottom: none;
+}
+
+.inputField span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10px;
+}
+
+.inputField img {
+  cursor: pointer;
+  border: 1px solid #DDDFE2;
+}
+
+.inputField::after {
+  content: "";
+  position: absolute;
+  top: 65px;
+  left: 20px;
+  width: 460px;
+  height: 1px;
+  background-color: #DDDFE2;
+}
+
+.addons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #DDDFE2;
+  border-top: none;
+  padding-bottom: 5px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.addon {
+  background-color: #F5F6F7;
+  border: 1px solid #DDDFE2;
+  border-radius: 20px;
+  padding: 6px 6px;
+  margin: 5px 0px 5px 5px;
+  cursor: pointer;
+}
+
+.addon:hover {
+  background-color: #ebedf0;
+}
+
+@media (max-width: 800px) {
+  .invisAtQuery {
+    display: none;
+  }
+}
+/*# sourceMappingURL=CreatePost.css.map */
